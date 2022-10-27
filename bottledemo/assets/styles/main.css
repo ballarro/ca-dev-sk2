@@ -1,0 +1,21 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    height: 95vh;
+    background-color: darkslategrey;
+    padding-left: 20px;
+    color: rgb(203, 213, 223)
+}
+
+footer {
+    padding-bottom: 5px;
+}

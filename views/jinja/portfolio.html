@@ -1,0 +1,13 @@
+{% extends "jinja/base.html" %}
+
+{% block content %}
+<div>
+    <ul>
+        {% for coin in portfolio %}
+            <li {% if coin.current < coin.buy %} style="color: red" {% endif %}>
+            {{ coin.coin_id }} - ${{ coin.current }}
+            </li>
+            {% endfor %}
+    </ul>
+</div>
+{% endblock %}
